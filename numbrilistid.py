@@ -9,17 +9,17 @@ for number in list1:
         if a == number2:
             print(number2)
 
-#Suurim number
+# 2.Suurim number
 a = max(list1)
 b = max(list2)
 print("Kahe listi suurim number on:", max(a, b))
 
-#Väikesim number
+# 3.Väikesim number
 c = min(list1)
 d = min(list2)
 print("Kahe listi väikseim number on:", min(c, d))
 
-#Listide keskmised
+# 4.Listide keskmised
 def keskmised(listinimi):    
     e = 0
     for number in listinimi:
